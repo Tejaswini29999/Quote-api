@@ -23,8 +23,30 @@ This is a simple RESTful API built using **Express.js** that returns a random in
 
 ## 📦 Setup Instructions
 
+## File Structure
+
+quote-api/
+├── index.js         # Main Express app with quote endpoint and rate limiter
+├── package.json     # Dependencies and metadata
+└── README.md        # Project documentation
+
+
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/quote-api.git
+git clone [https://github.com/your-username/quote-api.git](https://github.com/Tejaswini29999/Quote-api/tree/main)
 cd quote-api
+
+## API Endpoint
+## Success Response
+{
+  "quote": "The only way to do great work is to love what you do. - Steve Jobs"
+}
+
+
+## Rate Limiting
+
+{
+  "error": "Rate limit exceeded. Try again in X seconds."
+}
+
