@@ -34,7 +34,7 @@ quote-api/
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/your-username/quote-api.git](https://github.com/Tejaswini29999/Quote-api/tree/main)
+git clone https://github.com/Tejaswini29999/Quote-api
 cd quote-api
 
 ## API Endpoint
