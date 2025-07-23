@@ -50,3 +50,33 @@ cd quote-api
   "error": "Rate limit exceeded. Try again in X seconds."
 }
 
+---
+
+## 📬 Testing with Postman
+
+You can use [Postman](https://www.postman.com/) to test the API manually.
+
+### 🔹 Step-by-Step Instructions:
+
+1. **Open Postman** and click `+` to open a new tab.
+2. Set the method to `GET`.
+3. Enter the URL:
+4. Click **Send**.
+
+---
+
+### ✅ Expected Successful Response (HTTP 200 OK)
+
+```json
+{
+  "quote": "Believe you can and you're halfway there. - Theodore Roosevelt"
+}
+
+##  Rate Limit Exceeded (HTTP 429)
+If you send more than 5 requests in a minute fro
+
+{
+  "error": "Rate limit exceeded. Try again in X seconds."
+}
+
+
